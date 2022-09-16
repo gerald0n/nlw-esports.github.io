@@ -17,7 +17,7 @@
 html,
 body {
     width: 100%;
-    /* background-color: var(--background-color); */
+    background-color: var(--background-color);
 }
 
 body {
@@ -115,6 +115,7 @@ p {
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    /* text-align: center; */
 
     padding-top: 4rem;
 }
@@ -131,16 +132,17 @@ p {
     width: 8rem;
 }
 
-.imgs-socialLinks, .imgs-stack {
+.imgs-socialLinks,
+.imgs-stack {
     justify-content: left !important;
+}
+
+.imgs-streamers {
+    justify-content: flex-start;
 }
 
 .imgs-stack img {
     width: 6rem;
-}
-
-.imgs-socialLinks img{
-    
 }
 
 .imgs img:hover {

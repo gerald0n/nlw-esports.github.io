@@ -22,7 +22,7 @@ body {
 }
 
 body {
-    background-image: url(/assets/images/Fundo.jpg);
+    background-image: url(../images/Fundo.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
